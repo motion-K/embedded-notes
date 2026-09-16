@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'STM32笔记', link: '/stm32' }
+      { text: '笔记目录', link: '/stm32' }
     ],
 
     sidebar: [
@@ -19,8 +19,8 @@ export default defineConfig({
         ],
         text: '目录',
         items: [
-          { text: 'test', link: '/stm32' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'STM32', link: '/stm32' },
+          { text: 'Web setting', link: '/pages' }
         ]
       }
     ],

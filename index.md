@@ -9,17 +9,17 @@ hero:
   actions:
     - theme: brand
       text: START NOW
-      link: /markdown-examples
+      link: /stm32
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: see more
+      link: /#featrues
 
 features:
-  - title: test
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: stm32
+    details: stm32 learning last edited in Sep.16
+  - title: Web page
+    details: Last edited in Sep.16
+  - title: none
+    details: none
 ---
 
