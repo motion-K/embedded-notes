@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           { text: '串口中断通信实验', link: '/stm32' } // 对应 stm32-uart.md
         ],
-        text: 'Examples',
+        text: '目录',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
