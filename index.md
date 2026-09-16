@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Li"
   text: "Here is a simple personal library"
-  tagline: from motion(Project No.3)
+  tagline: from motion(No.3)
   actions:
     - theme: brand
       text: START NOW
