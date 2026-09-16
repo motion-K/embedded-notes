@@ -19,7 +19,7 @@ export default defineConfig({
         ],
         text: '目录',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'test', link: '/stm32' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
