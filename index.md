@@ -12,7 +12,7 @@ hero:
       link: /stm32
     - theme: alt
       text: see more
-      link: /#featrues
+      link: /#features
 
 features:
   - title: stm32

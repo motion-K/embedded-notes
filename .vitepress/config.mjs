@@ -13,20 +13,27 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'STM32 嵌入式开发',
-        items: [
-          { text: '串口中断通信实验', link: '/stm32' } // 对应 stm32-uart.md
-        ],
         text: '目录',
         items: [
-          { text: 'STM32', link: '/stm32' },
-          { text: 'Web setting', link: '/pages' }
+          //STM32部分
+          { 
+            text: 'STM32', 
+            item: [
+              {text: '串口中断通信实验', link: '/stm32' }
+            ],
+          },
+          //个人网页
+          { 
+            text: '个人网页', link: '/pages' 
+          },
+          //FPGA部分
+          { 
+            text: 'FPGA(未开始)', link: '/FPGA' 
+          }
         ]
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    
   }
 })
