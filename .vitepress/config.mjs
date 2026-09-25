@@ -19,6 +19,9 @@ export default defineConfig({
           { text: '个人网页', link: '/pages' },
           { text: 'FPGA(未开始)', link: '/FPGA' }
         ],
+      },
+      
+      {
         text:'FPGA',
         items: [
           { text: 'FPGA', link: '/FPGA' }
