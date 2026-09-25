@@ -13,23 +13,15 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '目录',
+        text: 'STM32',
         items: [
-          //STM32部分
-          { 
-            text: 'STM32', 
-            item: [
-              {text: '串口中断通信实验', link: '/stm32' }
-            ],
-          },
-          //个人网页
-          { 
-            text: '个人网页', link: '/pages' 
-          },
-          //FPGA部分
-          { 
-            text: 'FPGA(未开始)', link: '/FPGA' 
-          }
+          { text: 'STM32', link: '/stm32' },
+          { text: '个人网页', link: '/pages' },
+          { text: 'FPGA(未开始)', link: '/FPGA' }
+        ],
+        text:'FPGA',
+        items: [
+          { text: 'FPGA', link: '/FPGA' }
         ]
       }
     ],

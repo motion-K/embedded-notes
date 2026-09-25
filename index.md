@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Lii"
+  name: "Li"
   text: "Here is a simple personal library"
   tagline: from motion(No.3)
   actions:
