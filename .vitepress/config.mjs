@@ -14,15 +14,17 @@ export default defineConfig({
     sidebar: [
       {
         text: 'STM32',
+        collapsed: true,
         items: [
           { text: 'STM32', link: '/stm32' },
           { text: '个人网页', link: '/pages' },
           { text: 'FPGA(未开始)', link: '/FPGA' }
         ],
       },
-      
+
       {
         text:'FPGA',
+        collapsed: true,
         items: [
           { text: 'FPGA', link: '/FPGA' }
         ]
