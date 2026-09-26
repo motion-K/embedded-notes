@@ -16,9 +16,21 @@ export default defineConfig({
         text: 'STM32',
         collapsed: true,
         items: [
-          { text: 'STM32', link: '/stm32' },
-          { text: '个人网页', link: '/pages' },
-          { text: 'FPGA(未开始)', link: '/FPGA' }
+          { 
+            text: 'STM32F103C8T6',
+            collapsed: true,
+            items:[
+              {
+                text:'OLED',
+                collapsed: true,
+                items:
+                [{text:'OLED字库',link:'/stm32/stm32f103/OLED/oled_font'}]
+              }
+            ],
+          },
+          { 
+            text: 'STM32F407VET6', link: '/stm32' 
+          }
         ],
       },
 
