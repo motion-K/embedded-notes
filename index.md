@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: START NOW
-      link: /stm32
+      link: /stm32/stm32f103/OLED/oled_font
     - theme: alt
       text: see more
       link: /#features
