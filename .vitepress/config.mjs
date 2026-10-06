@@ -40,6 +40,14 @@ export default defineConfig({
         items: [
           { text: 'FPGA', link: '/FPGA' }
         ]
+      },
+
+      {
+        text:'嵌入式',
+        collapsed: true,
+        items: [
+          { text: '嵌入式学习', link: '/嵌入式学习/单片机结构' }
+        ]
       }
     ],
 
