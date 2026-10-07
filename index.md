@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Li"
-  text: "Here is a simple personal library"
-  tagline: from motion(No.3)
+  name: "Li（No.3）"
+  text: "简单的个人笔记站"
+  tagline: by motion
   actions:
     - theme: brand
       text: START NOW
@@ -23,11 +23,11 @@ features:
     details: none
 ---
 
-## Recent Notes
+## 最近笔记
 
 [OLED 显存与 Page 结构](/stm32/stm32f103/OLED/oled_font)
 
-## Projects
+## 最近工程
 
 [STM32 Game Controller](/project/game_controller.md)
 

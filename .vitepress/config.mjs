@@ -48,6 +48,14 @@ export default defineConfig({
         items: [
           { text: '嵌入式学习', link: '/嵌入式学习/单片机结构' }
         ]
+      },
+
+      {
+        text:'网页配置',
+        collapsed: true,
+        items: [
+          { text: '网页配置', link: '/pages' }
+        ]
       }
     ],
 
