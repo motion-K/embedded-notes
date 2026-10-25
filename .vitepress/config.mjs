@@ -12,6 +12,7 @@ export default defineConfig({
     ],
 
     sidebar: [
+      /*/////////// 单片机  //////////////// */
       {
         text: 'STM32',
         collapsed: true,
@@ -33,7 +34,7 @@ export default defineConfig({
           }
         ],
       },
-
+      /*/////////// FPGA  //////////////// */
       {
         text:'FPGA',
         collapsed: true,
@@ -41,7 +42,7 @@ export default defineConfig({
           { text: 'FPGA', link: '/FPGA' }
         ]
       },
-
+      /*/////////// 嵌入式  //////////////// */
       {
         text:'嵌入式',
         collapsed: true,
@@ -49,12 +50,20 @@ export default defineConfig({
           { text: '嵌入式学习', link: '/嵌入式学习/单片机结构' }
         ]
       },
-
+      /*/////////// 个人静态网页 //////////// */
       {
         text:'网页配置',
         collapsed: true,
         items: [
           { text: '网页配置', link: '/pages' }
+        ]
+      },
+      /*////////////  PCB  ////////////*/
+      {
+        text:'PCB',
+        collapsed: true,
+        items: [
+          { text: 'PCB设计', link: '/PCB/PCB布线' }
         ]
       }
     ],
