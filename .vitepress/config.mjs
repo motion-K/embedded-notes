@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '笔记目录', link: '/stm32/stm32f103/OLED/oled_font' }
+      { text: '笔记目录', link: '/stm32' }
     ],
 
     sidebar: [
