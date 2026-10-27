@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Li（No.3）"
+  name: "Li"
   text: "简单的个人笔记站"
   tagline: by motion
   actions:
@@ -25,7 +25,7 @@ features:
 
 ## 最近笔记
 
-[OLED 显存与 Page 结构](/stm32)
+[OLED 显存与 Page 结构](/stm32/stm32f103/OLED/oled_font)
 
 ## 最近工程
 
@@ -33,4 +33,4 @@ features:
 
 ### About
 
-*This is my personal library for electronics and embedded development.*
+*This is my personal library for electronics and embedded development.（No.3）*
