@@ -25,7 +25,7 @@ features:
 
 ## 最近笔记
 
-[OLED 显存与 Page 结构](/stm32/stm32f103/OLED/oled_font)
+[OLED 显存与 Page 结构](/stm32)
 
 ## 最近工程
 

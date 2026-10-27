@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Li",
   description: "Here is just nothing.",
+  srcExclude: ["STYLE.md"],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
