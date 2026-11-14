@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Li"
   text: "简单的个人笔记站"
-  tagline: by motion
+  tagline: by motion.K
   actions:
     - theme: brand
       text: START NOW
